@@ -1,10 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
     margin: 0;
+    padding: 0;
+    text-align: center;
     min-height: 100vh;
-    flex: 1;
 }
 
 .head-container {
@@ -13,6 +12,8 @@ body {
     flex-direction: column;
     color: #e5e7eb;
 }
+
+/* Navbar Part */
 
 .nav-list {
     margin: 0px;
@@ -39,17 +40,29 @@ body {
     margin-left: 2rem;
 }
 
+/* Hero Part */
+
+
 .header {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
-h2 {
+.header-cta {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 2rem;
+}
+
+h1 {
     font-size: 48px;
     font-weight: extrabold;
     color: #F9FAF8;
-    margin-top: 50px;
-    margin-bottom: 0;
+    margin: 0;
+
 }
 
 button {
@@ -65,8 +78,6 @@ button {
 }
 
 img {
-width: 50%;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
+    width: 450px;
+    height: 250px;
 }
